@@ -1,0 +1,47 @@
+/* ==========================================
+   MysinaCSS v1.0.0
+   ========================================== */
+
+:root {
+  --ms-primary: #3498db;
+  --ms-primary-hover: #2980b9;
+  --ms-bg: #f8f9fa;
+  --ms-text: #2c3e50;
+  --ms-radius: 6px;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: var(--ms-bg);
+  color: var(--ms-text);
+  margin: 0;
+  padding: 2rem;
+}
+
+/* Boutons */
+.ms-btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: var(--ms-primary);
+  border: none;
+  border-radius: var(--ms-radius);
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.ms-btn:hover {
+  background-color: var(--ms-primary-hover);
+}
+
+/* Cartes */
+.ms-card {
+  background: #ffffff;
+  border-radius: var(--ms-radius);
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e9ecef;
+}
